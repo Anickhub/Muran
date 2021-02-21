@@ -1,0 +1,280 @@
+/*----------------------------body----------------------------*/
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Montserrat', sans-serif;
+}
+/*----------------------------body----------------------------*/
+
+
+/*----------------------------General----------------------------*/
+.container{
+	max-width: 1600px;
+	width: 100%;
+	margin: auto;
+}
+@font-face{
+	font-family: 'Gotham pro';
+	src:url('fonts/Gotham Pro Regular.ttf');
+}
+/*----------------------------General----------------------------*/
+
+
+/*----------------------------header----------------------------*/
+.feedback{
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	padding: 10px 0;
+}
+.shopping-cart_1{
+	align-items: baseline;
+	justify-content: space-between;
+	display: flex;
+	width: 250px;
+}
+.Search_space{
+	display: flex;
+	align-items: center;
+}
+.Search_space > input{
+	font-size: 12px;
+	font-family: Montserrat;
+	border: none;
+	border-bottom: 1px solid grey;
+
+	margin-left: 10px;
+
+}
+.Call_1{
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	width: 12%;
+}
+.phone{
+	font-size: 18px;
+}
+.shopping-cart_inner{
+	display: flex;
+	align-items: center;
+}
+.shopping-cart_inner > span{
+	background: #FF8989;
+	margin-left: 5px;
+
+	font-size: 8px;
+	width: 13px;
+	height: 13px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+
+	font-weight: bold;
+	align-items: center;
+
+}
+
+/*----------------------------header----------------------------*/
+
+/*----------------------------nav----------------------------*/
+.siteNav{
+	background: #F2EFEB;
+	position: relative;
+}
+.siteNav > div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;	
+	width: 60%;
+
+}
+.siteNav > div li{
+	list-style: none;
+	padding: 20px 20px;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+
+}
+.siteNav > div a{
+	text-decoration: none;
+	color: #372821;
+		
+}
+.siteNav > div span{
+	display: inline-block;
+	width: 11px;
+	height: 2px;
+	background: #372821;
+	margin-left: 15px;
+	transition: 100ms ease;
+}
+.siteNav > div li:hover > span{
+	transform: rotate(90deg);
+}
+
+.dropDown{
+	display: none;
+	position: absolute;
+	top: 62px;
+
+	background: #ffffff;
+	box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+}
+.dropDown li{
+	padding: 10px 20px;
+	width: 120px;
+	font-size: 18px;
+	list-style: none;
+}
+.dropDown li:hover{
+	background: #F8F8F8;
+	cursor: pointer;
+	font-weight: bold;
+}
+.dropDown:hover{
+	display: block;
+}
+.siteNav > div li:hover +.dropDown{
+	display: block;
+}
+
+/*----------------------------nav----------------------------*/
+
+/*------------------banner------------------*/
+.banner{
+	margin-top: 50px;
+
+}
+.ban{
+	margin-right: 0px !important;
+}
+.banner_inner{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+.banner .container{
+	margin-right: 50px;
+}
+
+.teaser{
+	display: flex;
+	position: relative;
+}
+.teaser .line1{
+	background: #372821;
+	width: 2px;
+	height: 67px;
+	position: absolute;
+	top: 60px;
+	left: -350px;
+
+}
+.teaser h2{
+	font-size: 61px;
+	color: #372821;
+	line-height: 1.35;
+	margin:0;
+	font-family: 'Gotham pro';
+	font-weight: 4000;
+	position: relative;
+}
+
+
+.teaser_bg{
+	width: 1026px;
+	height: 664px;
+
+	background: url("C:/Users/User/Documents/Anvar aka TEGMA/Project1/images/Banner.png") center top/cover;
+}
+.writings{
+	position: absolute;
+	left: -410px;
+	top: 200px;
+}
+.writings .line2{
+	display: inline-block;
+	background: #372821;
+	width: 168px;
+	height: 2px;
+	margin-left: 30px;
+	position: absolute;
+	bottom: 30px;
+
+}
+.arrows{
+	margin-top: 107px;
+}
+.frame{
+	position: relative;
+	width: max-content;
+}
+.frame .shadow{
+	background: #F2F2F2;
+    width: 220px;
+    height: 65px;
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+
+    z-index: -1;
+}
+.frame button{
+	padding: 21px 70px;
+	border:1px solid #372821;
+	font-family: Montserrat;
+	font-size: 18px;
+	cursor: pointer;
+	background: none;
+}
+.arrow-down{
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	height: 40px;
+	width: 30px;
+	background: #F2F2F2;
+	text-align: center;
+}
+.arrow-down img{
+	margin-top: 10px;
+}
+/*------------------banner------------------*/
+
+/*------------------category------------------*/
+
+.category{
+	margin-top: 207px;
+	position: relative;
+	
+}
+
+.category .writings1 h1{
+	font-size: 59px;
+	font-weight: 900;
+	color: #372821;
+	
+}
+.writings1{
+	margin-left: 300px;
+}
+.writings1 .line3{
+	display: inline-block;
+	background: #372821;
+
+	width: 67px;
+	height: 2px;
+	margin-left: 50px;
+	position: absolute;
+	bottom: 30px;
+
+}
+
+
+
+/*------------------category------------------*/
