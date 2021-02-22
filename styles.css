@@ -175,7 +175,7 @@ body{
 	left: -350px;
 
 }
-.teaser h2{
+.teaser h1{
 	font-size: 61px;
 	color: #372821;
 	line-height: 1.35;
@@ -208,7 +208,7 @@ body{
 
 }
 .arrows{
-	margin-top: 107px;
+	margin-top: 90px;
 }
 .frame{
 	position: relative;
@@ -244,6 +244,7 @@ body{
 .arrow-down img{
 	margin-top: 10px;
 }
+
 /*------------------banner------------------*/
 
 /*------------------category------------------*/
@@ -251,19 +252,42 @@ body{
 .category{
 	margin-top: 207px;
 	position: relative;
-	
 }
 
-.category .writings1 h1{
+.category .pageheader h1{
 	font-size: 59px;
 	font-weight: 900;
 	color: #372821;
-	
 }
-.writings1{
+.pageheader{
 	margin-left: 300px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
 }
-.writings1 .line3{
+.pageheader img{
+	display: inline-block;
+	
+	width: 156px;
+	
+	margin-left: 120px;
+	position: absolute;
+	bottom: 250px;
+}
+.pageheader .line3{
+	display: inline-block;
+	background: #372821;
+
+	width: 67px;
+	height: 2px;
+	margin-left: 30px;
+	position: absolute;
+	bottom: 160px;
+	transform: rotate(90deg);
+}
+
+.pageheader .line4{
 	display: inline-block;
 	background: #372821;
 
@@ -271,10 +295,65 @@ body{
 	height: 2px;
 	margin-left: 50px;
 	position: absolute;
-	bottom: 30px;
+	bottom: 66px;
+}
+.pagesheet{
+	display: flex;
+	width: 168px;
+	justify-content: space-between;
+	position: relative;
+	font-size: 20px;
+
+/*	width: max-content;*/
+}
+.pagesheet .quadrangle1{
+	background: #F2F2F2;
+    width: 61px;
+    height: 61px;
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+
+
+    z-index: -1;
 
 }
+.pagesheet .quadrangle2{
+	background: #F2F2F2;
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    bottom: 0px;
+    right: 80px;
 
-
+    z-index: -1;
+}
 
 /*------------------category------------------*/
+
+/*------------------products------------------*/
+.products{
+  padding: 10px 0;
+  margin-bottom: 40px;
+}
+
+.product_inner{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  grid-gap: 60px;
+  margin-bottom: 40px;
+}
+.product_item{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.product_item p{
+	font-size: 23px;
+	margin:0;
+	margin-top: 2px;
+	justify-content: center;
+	display: flex;
+	color: grey;
+}
