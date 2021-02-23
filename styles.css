@@ -123,6 +123,7 @@ body{
 
 	background: #ffffff;
 	box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+	z-index: 1;
 }
 .dropDown li{
 	padding: 10px 20px;
@@ -333,7 +334,7 @@ body{
 
 /*------------------products------------------*/
 .products{
-  padding: 10px 0;
+  padding: 150px 0;
   margin-bottom: 40px;
 }
 
@@ -348,6 +349,7 @@ body{
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
+
 }
 .product_item p{
 	font-size: 23px;
@@ -355,5 +357,139 @@ body{
 	margin-top: 2px;
 	justify-content: center;
 	display: flex;
-	color: grey;
+	position: relative;
 }
+.spicy{
+	grid-column: 3;
+	grid-row: 1/3;
+}
+.product_item img{
+	height: 300px;
+	
+}
+.spicy img{
+	width: 200px;
+	height: auto;
+}
+.product_item:hover{
+	background: url(images/products/BackLogo.png), #F2F2F2;
+	background-repeat: no-repeat;
+	background-position: left center;
+	
+	cursor: pointer;
+}
+.product_item:hover p:before{
+	content: "";
+	display: block;
+	width: 70%;
+	height: 3px;
+	position: absolute;
+	bottom: -10px;
+	left: 0px;
+	background: black;
+}
+/*------------------products------------------*/
+
+
+/*------------------history------------------*/
+.history{
+	margin-top: 50px;
+
+}
+.hist{
+	margin-right: 0px !important;
+}
+.history_inner{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+.history .container{
+	margin-right: 50px;
+}
+
+.geaser{
+	display: flex;
+	position: relative;
+}
+.geaser .line5{
+	background: #372821;
+	width: 2px;
+	height: 67px;
+	position: absolute;
+	top: 60px;
+	left: -350px;
+
+}
+.geaser h1{
+	font-size: 61px;
+	color: #372821;
+	line-height: 1.35;
+	margin:0;
+	font-family: 'Gotham pro';
+	font-weight: 4000;
+	position: relative;
+}
+
+
+.geaser_bg{
+	width: 1026px;
+	height: 664px;
+
+	background: url("C:/Users/User/Documents/Anvar aka TEGMA/Project1/images/Banner.png") center top/cover;
+}
+.writings2{
+	position: absolute;
+	left: 410px;
+	top: 200px;
+}
+.writings2 .line6{
+	display: inline-block;
+	background: #372821;
+	width: 168px;
+	height: 2px;
+	margin-left: 30px;
+	position: absolute;
+	bottom: 30px;
+
+}
+.arrows2{
+	margin-top: 90px;
+}
+.frame2{
+	position: relative;
+	width: max-content;
+}
+.frame2 .shadow2{
+	background: #F2F2F2;
+    width: 220px;
+    height: 65px;
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+
+    z-index: -1;
+}
+.frame2 button{
+	padding: 21px 70px;
+	border:1px solid #372821;
+	font-family: Montserrat;
+	font-size: 18px;
+	cursor: pointer;
+	background: none;
+}
+.arrow-down2{
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	height: 40px;
+	width: 30px;
+	background: #F2F2F2;
+	text-align: center;
+}
+.arrow-down2 img{
+	margin-top: 10px;
+}
+
+/*------------------banner------------------*/
