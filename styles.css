@@ -150,9 +150,7 @@ body{
 	margin-top: 50px;
 
 }
-.ban{
-	margin-right: 0px !important;
-}
+
 .banner_inner{
 	display: flex;
 	justify-content: flex-end;
@@ -160,7 +158,7 @@ body{
 
 }
 .banner .container{
-	margin-right: 50px;
+	/*margin-right: 50px;*/
 }
 
 .teaser{
@@ -190,12 +188,11 @@ body{
 .teaser_bg{
 	width: 1026px;
 	height: 664px;
-
 	background: url("C:/Users/User/Documents/Anvar aka TEGMA/Project1/images/Banner.png") center top/cover;
 }
 .writings{
 	position: absolute;
-	left: -410px;
+	left: -420px;
 	top: 200px;
 }
 .writings .line2{
@@ -396,17 +393,12 @@ body{
 	margin-top: 50px;
 
 }
-.hist{
-	margin-right: 0px !important;
-}
+
 .history_inner{
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 
-}
-.history .container{
-	margin-right: 50px;
 }
 
 .geaser{
@@ -416,10 +408,11 @@ body{
 .geaser .line5{
 	background: #372821;
 	width: 2px;
-	height: 67px;
+	height: 87px;
 	position: absolute;
-	top: 60px;
-	left: -350px;
+	top: 250px;
+	left: 720px;
+	z-index: 1;
 
 }
 .geaser h1{
@@ -434,20 +427,23 @@ body{
 
 
 .geaser_bg{
-	width: 1026px;
-	height: 664px;
-
+	width: 926px;
+	height: 564px;
+	transform: scaleX(-1);
 	background: url("C:/Users/User/Documents/Anvar aka TEGMA/Project1/images/Banner.png") center top/cover;
 }
 .writings2{
+	background: red;
+	padding: 50px;
 	position: absolute;
-	left: 410px;
-	top: 200px;
+	left: 600px;
+	top: 300px;
+	width: 835px;
 }
 .writings2 .line6{
 	display: inline-block;
 	background: #372821;
-	width: 168px;
+	width: 108px;
 	height: 2px;
 	margin-left: 30px;
 	position: absolute;
